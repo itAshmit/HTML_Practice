@@ -1,0 +1,71 @@
+<style>
+    .subscribe{
+        background-color: rgb(208, 13, 13);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 4px;
+        transition: opacity 0.15s;
+        vertical-align: top;
+    }
+    .subscribe:hover{
+        opacity: 0.8;
+    }
+    .subscribe:active{
+        opacity:0.4;
+    }
+    .Join{
+        background-color: white;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+        border-radius: 2px;
+        padding-top: 9px;
+        padding-right: 15px;
+        padding-bottom: 9px;
+        padding-left: 15px;
+        border-width: 1px;
+        color: rgb(22, 121, 227);
+        cursor: pointer;
+        margin-right: 4px;
+        transition: background-color 0.18s;    
+        transition: color 0.16s;
+        vertical-align: top;
+    }
+    .Join:hover{
+        background-color: rgb(74, 74, 238);
+        color: white;
+    }
+    .Join:active{
+        opacity:0.7;
+    }
+    .Tweet{
+        padding-top: 9px;
+        padding-right: 15px;
+        padding-bottom: 9px;
+        padding-left: 15px;
+        border-radius: 18px;
+        border: 0px;
+        border-style: solid;
+        background-color: rgb(0, 119, 255);
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        vertical-align: top;
+    }
+    .tweet:hover{
+        box-shadow: 0px 3px 8px rgba(133, 117, 117, 0.6) ;
+        transition: border rgb(0, 119, 255);
+    }
+</style>
+<button class="SUBSCRIBE">SUBSCRIBE</button>
+<button class="Join">JOIN</button>
+<button class="Tweet">Tweet</button>
+<h1>here used padding instead of height and width because if text added afterwards it will flow out of the border but in padding it'll not.</h1>
+<h3>and also used *vertical-align* to align the text top</h3>
