@@ -42,3 +42,87 @@
     border-radius: 30px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
+
+.first{
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-bottom: 7px;
+    padding-right: 8px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    font-size: 15px;
+    border-color: rgb(200, 200, 200);
+    margin-bottom: 12px;
+}
+.last{
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-bottom: 7px;
+    padding-right: 8px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    font-size: 15px;
+    border-color: rgb(200, 200, 200);
+    margin-bottom: 12px;
+}
+.email{
+    display: block;
+    width: 230px;
+    padding: 8px 0px 8px 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: rgb(200, 200, 200);
+    margin-bottom: 12px;
+}
+.sign{
+    padding: 8px 95px 8px 95px;
+    border: none;
+    color: white;
+    background-color: rgb(84, 98, 243);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.request{
+    font-size: 25px;
+    font-family: verdana;
+}
+.pickup{
+    display: block;
+    width: 265px;
+    border: none;
+    background-color: rgb(240, 236, 236);
+    padding: 8px 0px 8px 9px;
+    margin-bottom: 5px;
+}
+.destination{
+    display: block;
+    width: 265px;
+    border: none;
+    background-color: rgb(240, 236, 236);
+    padding: 8px 0px 8px 9px;
+    margin-bottom: 5px;
+}
+.now{
+    border: none;
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+.later{
+    border: none;
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: rgb(240, 236, 236);;
+    color: black;
+    font-size: 10px;
+}
