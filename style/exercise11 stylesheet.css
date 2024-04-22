@@ -1,0 +1,90 @@
+.main{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+.sg{
+    background-color: lightblue;
+}
+.fg{
+    background-color: lightpink;
+}
+
+
+.grid2{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+.tg{
+    background-color: lightblue;    
+}
+.fog{
+    background-color: lightpink;
+}
+.fig{
+    background-color: lightblue;
+}
+
+.m3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.sig,.seg,.eg,.ng{
+    background-color: lightpink;
+}
+
+
+.grid-temp{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 8px;
+}
+.main2{
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0,0.5);
+}
+.profilepic{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 2px;
+}
+.name{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 3px;
+}
+.mutual{
+    margin-left: 3px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    vertical-align: middle;
+}
+.picture{
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+    border-radius: 14px;
+    vertical-align: middle;
+}
+.friends{
+    font-size: 10px;
+    color: rgb(100, 100, 100);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.add{
+    border: none;
+    background-color: rgb(62, 103, 236);
+    color: white;
+    font-size: 9px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 3px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    cursor:pointer;
+}
