@@ -1,0 +1,43 @@
+.rightsidebar{
+    position: fixed;
+    background-color: green;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.wholepage{
+    position: fixed;
+    background-color: rgba(0 , 0, 0, 0.5);
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mid-content{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    position: fixed;
+    right: 50px;
+    left: 50px;
+    top: 220px;
+    bottom: 260px;
+    padding: 10px 5px 10px 9px;
+    border-radius: 2px;
+}
+.Modal{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px; 
+    padding: 5px;   
+}
+.Show{
+    font-family: Arial;
+    font-size: 12px; 
+    padding: 5px; 
+}
+.button{
+    padding: 5px;
+}
