@@ -1,0 +1,43 @@
+body{
+    margin-bottom: 3000px;
+}
+.position-2{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 320px;
+    height: 180px;
+    background-color: grey;
+}
+.positions{
+    position: absolute;
+    top: -10px ;
+    left: -10px;
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.positions3{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-top: 4px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    border-radius: 2px;
+}

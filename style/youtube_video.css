@@ -1,0 +1,78 @@
+.video-preview{
+    display: flex;
+    flex-direction: column;
+}
+.template-1{
+    width: 320px;
+}
+.thumbnail{
+    width: 320px;
+}
+.profile-title{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+}
+.profile-box{
+    width: 60px;
+    position: relative;
+    cursor: pointer;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 6px;
+    margin-top: 3px;
+}
+.title-channel{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.title{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 5px;
+    margin-top: 5px;
+}
+.channel-name{
+    color: grey;
+    padding-left: 5px;
+}
+
+.tooltip{
+    position: absolute;
+    bottom: -60px;
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border: none;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    cursor: pointer;
+}
+.profile-box:hover .tooltip{
+    opacity: 1;
+    transition: 0.15s;
+}
+.tooltip-profile-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 128);
+    padding: 5px;
+}
+.tooltip-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.tooltip-channel-name{
+    padding:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
