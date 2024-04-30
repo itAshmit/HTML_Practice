@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: column;
 }
+@media(max-width:500px){
+    body{
+        background-color: blue;
+    }
+} 
 .template-1{
     width: 320px;
 }
